@@ -20,3 +20,6 @@ def some_phonc(l1,l2,**l3):
     print("l3: ", l3)
 some_phonc(1,2, text="text")
 # 7
+def sum_arg(a, b): return a + b
+# аналог 
+sum_arg = lambda a, b: a + b
